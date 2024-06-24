@@ -5,7 +5,8 @@ const app = express();
 const PORT = 3000;
 
 // Replace with your MongoDB URI
-const MONGODB_URI ="mongodb+srv://shivansh:shivansh@flipkartdata.koizn7a.mongodb.net/shivansh?retryWrites=true&w=majority&appName=FlipkartData";
+const MONGODB_URI =
+  "mongodb+srv://manoj:manoj@cluster0.ki79c4u.mongodb.net/manoj?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
